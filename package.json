@@ -1,0 +1,24 @@
+{
+  "name": "express-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development HOST=0.0.0.0 PORT=8080 DEBUG=app:* nodemon src/index.js --watch ./src"
+  },
+  "dependencies": {
+    "@module/encryption": "file:./src/module/encryption",
+    "@module/express": "file:./src/module/express",
+    "@module/jsonwebtoken": "file:./src/module/jsonwebtoken",
+    "@module/socket.io": "file:./src/module/socket.io",
+    "@module/test": "file:./src/module/test",
+    "axios": "^0.19.0",
+    "conf": "^4.0.1",
+    "cross-env": "^5.0.1",
+    "debug": "^3.2.6",
+    "dotenv": "^6.0.0",
+    "nodemon": "1.18.4"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

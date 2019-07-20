@@ -1,0 +1,30 @@
+{
+  "name": "express-modules",
+  "dockerFile": "Dockerfile",
+  "appPort": [8080],
+  "settings": {
+    "terminal.integrated.rendererType": "dom",
+    "editor.fontSize": 10,
+    "git.autofetch": true,
+    "extensions.ignoreRecommendations": true,
+    "debug.inlineValues": true,
+    "telemetry.enableTelemetry": false,
+    "npm.enableScriptExplorer": true,
+    "docker.explorerRefreshInterval": 60000,
+    "html.format.wrapLineLength": 0,
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.fontSize": 12,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.iconTheme": "vscode-great-icons",
+    "editor.fontFamily": "\"SFMono-Regular\",Consolas,\"Liberation Mono\",Menlo,Courier,monospace",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Visual Studio Light"
+  },
+  "extensions": ["emmanuelbeziat.vscode-great-icons", "dbaeumer.vscode-eslint"]
+}
