@@ -4,6 +4,6 @@
   "private": true,
   "dependencies": {
     "jsonwebtoken": "^8.3.0",
-    "bcrypt": "^3.0.0"
+    "bcrypt": "^5.0.0"
   }
 }
